@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+/* Adding image for back ground*/
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../groc.webp);
+    height: 100vh;
+    /*To cover the hole page*/
+    background-size: cover;
+    /*To center align the position of page*/
+    background-position: center;
+
+}
+ul
+{
+    /*To show url on right side*/
+    float: right;
+    /*To margin it 25 pixels down*/
+    margin-top: 25px;
+}
+ul li 
+{
+    /*To show link on side by side*/
+    display: inline-block;
+}
+  /*Styling of a tag*/
+ul li a
+{
+    text-decoration: none;
+    /*Color of the font*/
+    color:white;
+    /*Creating spacing between text and the box*/ 
+    padding: 5px 20px;
+    /*Setting the border of box*/
+    border: 1px solid transparent;
+    /*Transition of 0.6 second*/
+    transition: 0.6s ease;
+}
+ul li a:hover
+{
+    background-color: white;
+    /*Font color*/
+    color:black;
+}
+/*This is used for home bar to how the present page*/
+ul li.active a
+{
+    background-color: white;
+    color:black;
+}
+.logo
+{
+    color: rgb(36, 194, 21);
+    font-size: 25px;
+    font-family: Arial;
+    float: left;
+    padding-top: 10px;
+}
+/*This is used to align in center*/
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+}
+/*Styling of title start here*/
+.title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1
+{
+    color: white;
+    font-size: 70px;
+
+}
+/*Styling of button start here*/
+.button
+{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*For button Styling*/
+.btn
+{
+    border: 1px solid white;
+    /*10px from top and bottom and 30px from left and right*/
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover
+{
+    background-color: white;
+    color:black;
+}
